@@ -14,5 +14,6 @@
 */
 
 $router->get('/', function () use ($router) {
+    echo "It's serving properly.";
     return $router->app->version();
 });
